@@ -26,12 +26,12 @@ function setup() {
   scoreElem = createDiv('Score = 0');
   scoreElem.position(20, 20);
   scoreElem.id = 'score';
-  scoreElem.style('color', 'white');
+  scoreElem.style('color', 'red');
 
-  createCanvas(500, 500);
+  createCanvas(1000, 1000);
   frameRate(15);
-  stroke(290);
-  strokeWeight(10);
+  stroke(300);
+  strokeWeight(15);
   updateFruitCoordinates();
 
   for (let i = 0; i < numSegments; i++) {
